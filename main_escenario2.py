@@ -11,21 +11,21 @@ def main():
     # Solicitar la cadena al usuario
     cadena = st.text_input("Ingrese una dirección:")
 
-def get_diccionario(diccionario: dict):
-    dictionary_depurado: dict = {}
-    if diccionario is not None:
-        for i in diccionario.keys():
-            if diccionario[i] != "":
-                dictionary_depurado[i] = diccionario[i]
-        return dictionary_depurado
-    else:
-        return dictionary_depurado
+# def get_diccionario(diccionario: dict):
+#    dictionary_depurado: dict = {}
+#    if diccionario is not None:
+#        for i in diccionario.keys():
+#            if diccionario[i] != "":
+#                dictionary_depurado[i] = diccionario[i]
+#        return dictionary_depurado
+#    else:
+#        return dictionary_depurado
 
 
-lista_direcciones = ["MANZANA 4 "]
+# lista_direcciones = ["MANZANA 4 "]
 
-for i in lista_direcciones:
-    componentes = estandarizador_escenario2.estandarizar_direccion(i)
-    print(i)
-    print(get_diccionario(componentes))
-    print("-------------------------------------------")
+# for i in lista_direcciones:
+#    componentes = estandarizador_escenario2.estandarizar_direccion(i)
+#    print(i)
+#    print(get_diccionario(componentes))
+#    print("-------------------------------------------")
