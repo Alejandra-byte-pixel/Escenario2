@@ -1,9 +1,9 @@
 import streamlit as st
 import estandarizador_escenario2
 
-def estandarizar_direccion(cadena):
-    componentes = estandarizador_escenario2.estandarizar_direccion(cadena)
-    return estandarizador_escenario2.get_diccionario(componentes)
+#def estandarizar_direccion(cadena):
+#    componentes = estandarizador_escenario2.estandarizar_direccion(cadena)
+#    return estandarizador_escenario2.get_diccionario(componentes)
 
 def main():
     st.title("Aplicación de Estandarización de Direcciones")
