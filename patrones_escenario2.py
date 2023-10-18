@@ -43,7 +43,7 @@ def extraer_componentes_direccion_escenario2(cadena):
     }
 
     for M in diccionario_M.keys():
-        patron_1 = r'^({})\s+(\d{{1,3}})\s+$'.format(re.escape(M))
+        patron_1 = r'^$'.format(re.escape(M))
         componentes_1 = verificar_patron_escenario2(cadena, patron_1)
         if componentes_1 is not None:
             componentes_direccion_escenario2["Manzana"] = diccionario_M.get(componentes_1[0])
